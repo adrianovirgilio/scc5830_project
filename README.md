@@ -12,7 +12,14 @@ The images with white background obtained in the field were submitted to the pro
 
 The values of red, green and blue (R, G, B) of the images were determined and the following vegetation indexes were analyzed:V (Wang et al., 2013); ExG, CIVE, VEG and ExGR (GUIJARRO et al., 2011 & YANG et al., 2015); COM and GN (YANG et al., 2015).
 
+Description of input images:
+https://giia.pirassununga.net/scc5830_project/images/pqt1_1-f1_02-12-2017-fb.JPG
+
 The program in PHP makes the segmentation of the image with white background by giving the image in two objects (leaves of brachiaria and the white background of the image). To perform the segmentation of the images, a threshold algorithm was used that makes the autocorrection of the binary threshold.
+
+
+Link to access the online application:
+https://giia.pirassununga.net/scc5830_project/index.html
 
 The PHP program targets the image with a white background, dividing the image into two objects (brachiaria leaves and the white background of the image). To perform the segmentation of the images, a threshold autocorrection threshold algorithm was used.
 
@@ -27,7 +34,6 @@ To develop software capable of estimating nitrogen concentration in Brachiaria d
 
 Description of input images:
 https://giia.pirassununga.net/scc5830_project/images/pqt1_1-f1_02-12-2017-fb.JPG
-
 
 
 # 1 Proposal
