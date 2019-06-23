@@ -1,12 +1,13 @@
 # 3 Final Report and Code
 Title: Estimating the nutritional status of nitrogen <br />
 Student: Adriano Aparecido Virgílio - nº usp:9877082 <br />
-# Main objective
+
+Main objective:
 To develop software capable of estimating nitrogen concentration in Brachiaria decumbens cv. Basilisk from the analysis of diagnostic leaf images and thus define the N status of the crop and to evaluate the correlation between vegetation indices, based on RGB obtained from digital images, and the nitrogen concentration in diagnostic leaves of Brachiaria decumbens cv. Basilisk.
 
 Indices of vegetation based on RGB and obtained from the analysis of digital images can be used to determine the nitrogen status in Brachiaria decumbens cv. Basilisk. For this purpose, the vegetation index used as the basis for image processing by the software should be highly correlated with the nitrogen concentration in the plant, determined by the analytical method.
 
-Methodology for obtaining the RGB of the images
+Methodology for obtaining the RGB of the images:
 The images with white background obtained in the field were submitted to the prototype of the software developed in PHP language, using the GD and ImageMagick library, preprocessed for noise removal through background adjustment (255,255,255). The mean values of the red (R), green (G) and blue (B) components were determined by means of a pixel to pixel scanning algorithm, which were used to obtain the IV's. Images were considered outliers when they presented low resolution, and were removed from the database.
 
 The values of red, green and blue (R, G, B) of the images were determined and the following vegetation indexes were analyzed:V (Wang et al., 2013); ExG, CIVE, VEG and ExGR (GUIJARRO et al., 2011 & YANG et al., 2015); COM and GN (YANG et al., 2015).
