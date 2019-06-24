@@ -1,6 +1,6 @@
 # 3 Final Report and Code
 Title: Estimating the nutritional status of nitrogen <br />
-Student: Adriano Aparecido Virgílio - nº usp:9877082 <br />
+Student: Adriano Aparecido Virgílio - nº usp: 9877082 <br />
 
 Main objective:
 To develop software capable of estimating nitrogen concentration in Brachiaria decumbens cv. Basilisk from the analysis of diagnostic leaf images and thus define the N status of the crop and to evaluate the correlation between vegetation indices, based on RGB obtained from digital images, and the nitrogen concentration in diagnostic leaves of Brachiaria decumbens cv. Basilisk.
@@ -21,7 +21,7 @@ The program in PHP makes the segmentation of the image with white background by 
 Link to access the online application:
 https://giia.pirassununga.net/scc5830_project/index.html
 
-The PHP program targets the image with a white background, dividing the image into two objects (brachiaria leaves and the white background of the image). To perform the segmentation of the images, a threshold autocorrection threshold algorithm was used.
+The PHP program targets the image with a white background, dividing the image into two objects (brachiaria leaves and the white background of the image). To perform the segmentation of the images, a threshold autocorrection and algorithm were used.
 
 After segmentation and separation of the background through the threshold algorithm, pixel-pixel scanning of the image is performed in order to obtain the mean of the R, G and B channels, following the calculation of the IV (vegetation indices) that will serve as entry for the training of the Artificial Neural Network.
 
