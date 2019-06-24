@@ -23,7 +23,7 @@ https://giia.pirassununga.net/scc5830_project/index.html
 
 The PHP program targets the image with a white background, dividing the image into two objects (brachiaria leaves and the white background of the image). To perform the segmentation of the images, a threshold autocorrection and algorithm were used.
 
-After segmentation and separation of the background through the threshold algorithm, pixel-pixel scanning of the image is performed in order to obtain the mean of the R, G and B channels, following the calculation of the IV (vegetation indices) that will serve as entry for the training of the Artificial Neural Network.
+After segmentation and separation of the background through the threshold algorithm, pixel-pixel scanning of the image is performed in order to obtain the mean of the R, G and B channels, following the calculation of the IV (vegetation indices) that will serve as entry for the training of the Artificial Neural Network(ANN).
 
 
 # 2 Partial report
